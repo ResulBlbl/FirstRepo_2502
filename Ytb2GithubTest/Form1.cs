@@ -11,5 +11,15 @@ namespace Ytb2GithubTest
         {
             MessageBox.Show("test");
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string username = "Resul Bülbül";
+
+            if (string.IsNullOrEmpty(username))
+            {
+                throw new Exception("Hata");
+            }
+        }
     }
 }
